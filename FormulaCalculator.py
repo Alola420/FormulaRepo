@@ -1,9 +1,12 @@
 import math
 while True:
-    p = str(input("Choose your subject: 1)Math  2)Chemistry  3)Physics  4)Exit "))
+    #choosing the subject
+    p = str(input("Choose your subject: 1)Math  2)Chemistry  3)Physics  4)Exit ")) 
     if p == "1":
+        #Math formulae
         q = str(input("Choose your topic: 1)Circles  2)Straight Lines  3)Trigonometry  4)Permutation and Combination  5)Quadratic "))
         if q == "1":
+            #choosing the problem within the selected topic
             r = str(input("Choose the formula 1)Finding equation of circle  2)Finding center and radius of circle "))
             if r == "1":
                 # finding equation of a circle
@@ -21,6 +24,7 @@ while True:
                 print ("The center is " + str(-g) + "-" + str(-f))
                 print ("The radius is " + str((g**2 + f**2 - c)**0.5))
             else:
+                #scouting for invalid input
                 print ("Invalid option")
         elif q == "2":
             r = str(input("Choose the formula 1)Equation of a straight line  2)Distance of a point from a line "))
@@ -116,6 +120,7 @@ while True:
         else:
             print ("invalid option")
     elif p == "2":
+        #Chemistry Formulae
         q = str(input("Choose your topic: 1)Atomic Structure  2)Gaseous State  3)Stoichiometry"))
         if q == "1":
             r = str(input("Choose the formula 1)Bohr's Orbit Radius  2)Bohr's orbit Energy  3)Bohr's Orbit Velocity  4)Quantized Angular Momentum"))
@@ -206,6 +211,7 @@ while True:
         else:
             print ("invalid option")                            
     elif p == "3":
+        #physics formulae
         q = str(input("Choose your topic: 1)Gravitation  2)Energy  3)Work power  4)Projectile"))
         if q == "1":
             r = str(input("Choose the formula 1)Black Hole Radius  2)Escape Velocity"))
