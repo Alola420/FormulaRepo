@@ -29,10 +29,16 @@ The equation/final value of the formula is then displayed.
 Sample:
 
 Choose your subject: 1)Math  2)Chemistry  3)Physics  4)Exit 1
+
 Choose your topic: 1)Circles  2)Straight Lines  3)Trigonometry  4)Permutation and Combination  5)Quadratic 1
+
 Choose the formula 1)Finding equation of circle  2)Finding center and radius of circle 1
-X co-ordinate of circle's centre5
-Y co-ordinate of circle's centre5
+
+X co-ordinate of circle's centre 5
+
+Y co-ordinate of circle's centre 5
+
 Enter radius of the circle25
+
 The equation of the circle is x^2 + y^2 + -10.0x + -10.0y + -575.0 = 0
 
